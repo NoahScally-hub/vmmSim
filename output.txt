@@ -1,0 +1,43 @@
+Clock: 1000, Process 2: Started.
+Clock: 1000, Process 2, Store: Variable 1, Value: 5
+Clock: 1183, Process 2, Store: Variable 2, Value: 3
+Clock: 1331, Memory Manager, SWAP: Variable 3 with Variable 1
+Clock: 1331, Process 2, Store: Variable 3, Value: 7
+Clock: 1722, Process 2, Lookup: Variable 3, Value: 7
+Clock: 2102, Process 2, Lookup: Variable 2, Value: 3
+Clock: 2263, Process 2, Release: Variable 1
+Clock: 2462, Memory Manager, SWAP: Variable 1 with Variable 3
+Clock: 3462, Process 1: Started.
+Clock: 3462, Process 2, Store: Variable 1, Value: 8
+Clock: 3462, Process 1, Store: Variable 1, Value: 5
+Clock: 3731, Process 2: Finished.
+Clock: 4135, Process 1, Store: Variable 2, Value: 3
+Clock: 4569, Memory Manager, SWAP: Variable 3 with Variable 1
+Clock: 4569, Process 1, Store: Variable 3, Value: 7
+Clock: 4901, Process 1, Lookup: Variable 3, Value: 7
+Clock: 4916, Process 1, Lookup: Variable 2, Value: 3
+Clock: 5132, Process 1, Release: Variable 1
+Clock: 5306, Memory Manager, SWAP: Variable 1 with Variable 3
+Clock: 5306, Process 1, Store: Variable 1, Value: 8
+Clock: 5636, Process 1, Lookup: Variable 1, Value: 8
+Clock: 5974, Process 1, Store: Variable 1, Value: 5
+Clock: 6189, Process 1, Store: Variable 2, Value: 3
+Clock: 6489, Process 1: Finished.
+Clock: 7489, Process 3: Started.
+Clock: 7489, Process 3, Store: Variable 1, Value: 5
+Clock: 7919, Process 3, Store: Variable 2, Value: 3
+Clock: 8026, Memory Manager, SWAP: Variable 3 with Variable 1
+Clock: 8026, Process 3, Store: Variable 3, Value: 7
+Clock: 8105, Process 3, Lookup: Variable 3, Value: 7
+Clock: 8356, Process 3, Lookup: Variable 2, Value: 3
+Clock: 8537, Process 3, Release: Variable 1
+Clock: 8885, Memory Manager, SWAP: Variable 1 with Variable 3
+Clock: 8885, Process 3, Store: Variable 1, Value: 8
+Clock: 8952, Process 3, Lookup: Variable 1, Value: 8
+Clock: 9348, Process 3, Store: Variable 1, Value: 5
+Clock: 9644, Process 3, Store: Variable 2, Value: 3
+Clock: 9920, Memory Manager, SWAP: Variable 3 with Variable 1
+Clock: 9920, Process 3, Store: Variable 3, Value: 7
+Clock: 10045, Process 3, Lookup: Variable 3, Value: 7
+Clock: 11072, Process 3, Lookup: Variable 2, Value: 3
+Clock: 11431, Process 3: Finished.
